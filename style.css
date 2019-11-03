@@ -1,0 +1,102 @@
+
+
+/* body font/image  */
+body{ font-family:Georgia, serif;
+      background-image: radial-gradient(circle, #1f406b 20%, #000 80%);
+}
+
+
+/* heading titles and centering*/
+
+.header {
+  background-image: radial-gradient(circle, #1f406b 20%, #000 80%);
+  background-color: #8c8685;
+  color: #ffffff;
+  padding: 25px;
+}
+
+/* H1 text formatting */
+h1 {
+  text-align: left;
+  text-shadow: 2px 2px 4px black;
+  max-width: 50%;
+}
+
+/* H2 text formatting */
+h2 {
+  text-align: center;
+  background-color: white;
+}
+
+/* p tag text placement and padding */
+p {
+  text-align: center;
+  padding: 25px;
+  color: white;
+}
+
+/* nav bar settings  */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* nav bar actions */
+ul.topnav li a:hover:not(.active) {background-color: #1f406b;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 360px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+}
+
+@media screen and (max-width: 768px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+}
+
+/* main template build*/
+.container{
+  width: 100%;
+  background-image: radial-gradient(circle, #1f406b 20%, #000 80%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* image settings for body */
+.img{
+  max-width: 100%;
+  display: block;
+  padding: 4px;
+}
+
+/* image settings for header */
+.himg{
+  display: flex;
+  justify-content: right;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
